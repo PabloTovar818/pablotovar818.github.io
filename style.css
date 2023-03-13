@@ -1,23 +1,31 @@
 .grid {
     display: inline-grid;
-    grid-template-rows: minmax(100vh, auto);
-    grid-template-columns: minmax(7em, auto) minmax(auto, auto);
+    grid-template-rows: minmax(98vh, auto);
+    grid-template-columns: 7em 100vw;
+    grid-gap: 10px;
+    background-color: #dbfbff;
     border-radius: 5px;
 }
 
 #sidebar {
-    background-color: silver;
+    background-color: #dbe9ff;
     border-radius: 5px 0px 0px 5px;
+    text-align: center;
+    padding-top: 40px;
 }
 
 a {
+    margin: 20px;
     display: block;
-    margin: 5px 10px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    color: #a4bcbf;
 }
 
 #main {
-    margin-left: auto;
-    padding-left: 10px;
-    background-color: teal;
-    width: 100vw;
+    padding-top: 40px;
 }
