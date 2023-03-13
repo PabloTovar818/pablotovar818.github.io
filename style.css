@@ -1,0 +1,23 @@
+.grid {
+    display: inline-grid;
+    grid-template-rows: minmax(100vh, auto);
+    grid-template-columns: minmax(7em, auto) minmax(auto, auto);
+    border-radius: 5px;
+}
+
+#sidebar {
+    background-color: silver;
+    border-radius: 5px 0px 0px 5px;
+}
+
+a {
+    display: block;
+    margin: 5px 10px;
+}
+
+#main {
+    margin-left: auto;
+    padding-left: 10px;
+    background-color: teal;
+    width: 100vw;
+}
